@@ -1,0 +1,49 @@
+
+body{
+background-color: gray;
+max-width: 100%;
+margin: 0; 
+padding: 0;
+background-repeat: no-repeat;
+background-size: contain;
+}
+#principal{
+	background-color: ;
+    background-position: top;
+    background-image:url(mix.jpg);
+    background-repeat: no-repeat;
+    padding-top:20px;
+	text-align: center;
+	padding-right: 50px;
+	padding-left: 25px;
+	max-width: 500px;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+label{
+	color:  #e6ccff;
+	padding-left: 25px;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 2em;
+}
+input{
+	box-shadow: 2px 2px 2px 1px lightblue;
+}
+
+button{
+	border: none;
+	background: #3a7999;
+	color: #f2f2f2;
+	padding: 10px;
+	font-size: 18px;
+	border-radius: 5px;
+	box-sizing: border-box;
+	transition: all 500ms ease;
+}
+button:hover {
+	cursor: pointer;		
+	background: rgba(0,0,0,0);
+	color: #3a7999;
+	box-shadow: inset 0 0 0 3px #3a7999;
+}
