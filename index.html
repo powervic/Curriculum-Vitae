@@ -2,20 +2,21 @@
 <html lang="es">
 <head>
 	<meta charset="UTF-8">
-	<title>Curriculum</title>
+	<title>Curriculum Vitae</title>
 	<link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Cuprum" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
 	<link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-	
+
 <header id="head">
 	<nav>
 		<ul>
-			<li><a href="#">Inicio</a></li>
-			<li><a href="#">Acerca de</a></li>
-			<li><a href="#">Contacto</a></li>
+			<li><a href="#principal">Inicio</a></li>
+			<li><a href="#Experiencia">Experiencia</a></li>
+			<li><a href="#contacto">Contacto</a></li>
+			<li><a href="#aboutme">Sobre mí</a></li>
 		</ul>
 	</nav>
 </header>
@@ -29,7 +30,7 @@
 	</section>
 
 	<section id="izquierda">
-	<h3>Experiencia</h3>
+	<h3 id="Experiencia">Experiencia</h3>
 	<ul>
 		<li>Ayudante de monitor de ocio y tiempo libre</li>
 		<li>Ayudante de camarero</li>
@@ -58,12 +59,44 @@
 			<li>Curso DJ profesional MacSound School (Palencia)</li>
 			<li>Curso de vigilancia y ciberseguridad, INCIBE </li>
 		</ul>
+		<hr>
+		<section id="derecha">
+			<h3 id="aboutme">Sobre mí</h3>
+		</section>
+		<hr>
+	<section id="Idiomas">
+		<h3>Idiomas</h3>
+			<table>
+				<tr>
+				<th>Español</th>
+				<td>Nivel nativo</td>
+			</tr>
+			<tr>
+				<th>Inglés</th>
+				<td>Nivel medio</td>
+			</tr>
+		</table>
+	</section>	
+	
+
 </section>
 
 	<footer id="contacto"> 
 		<p><form action="">
-			<label for="Mensaje" name="Contacto">Tu nombre:</label>
+			<label for="Mensaje" name="Contacto">Email empresa interesada:</label>
 			<input type="text" name="Contacto">
+
+			<div id="redes">
+				<ul>
+					<a href="https://www.instagram.com/victoriasanchezz__/" target="_blank"><li id="instagram"></li></a>
+
+					<a href="https://www.facebook.com/djvictoriasanchezz"><li id="facebook"></li></a>
+
+					<a href="https://github.com/powervic"><li id="github"></li></a>
+				</ul>
+			</div>
+			<br>
+			<button>Enviar</button>
 
 		</form></p>
 	</footer>

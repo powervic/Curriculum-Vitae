@@ -19,7 +19,7 @@ h1 strong{
 }
 #head{
 	background-color:  white;
-		background: #333;
+		background: linear-gradient(to top,darkslategray,slategray);
 	color: white;
 	height: 80px;
 }	
@@ -32,18 +32,15 @@ h1 strong{
 		list-style: none;
 		padding-right: 20px;
 	}
-	
 		nav ul li {
 			display: inline-block;
 			line-height: 80px;
 		}
-			
 			nav ul li a {
 				display: block;
 				padding: 0 10px;
 				text-decoration: none;
 			}
-			
 				nav ul li a:hover {
 					background: #0b76a6;
 				}
@@ -54,7 +51,7 @@ h1 strong{
     background-image:url(mix.jpg);
     background-repeat: no-repeat;
     padding-top:30px;
-    max-width: 900px;
+    max-width: 1200px;
 	margin: 0 auto;
 	box-shadow: 5px 5px 10px rgba(0,0,0,.8);
 
@@ -97,6 +94,13 @@ h3{
 	color:  #19004d;
 }
 
+table{
+	padding-left: 25px;
+	padding-bottom: 25px;
+	font-size: 1.5em;
+	padding-top: 0;
+}
+
 #contacto {
 	background-color: #08001a;
 	color: white;
@@ -106,4 +110,56 @@ h3{
 
 #contacto form{
 	padding: 10px;
+}
+
+#contacto img{
+text-decoration: none;
+background-color: transparent;
+padding: 5px;
+}
+#redes {
+	float: right;
+}
+#redes a img {
+	width: 50px;
+	height: 50px;
+}
+
+#redes ul {
+	list-style: none;
+}
+#redes ul li{
+	display: inline-block;
+	height: 50px;
+	width: 50px;
+}
+
+#instagram, #facebook, #github {
+	background-size: 50px 50px;
+	background-repeat: no-repeat;
+}
+
+#instagram {
+	background-image: url('img/instaBlanco.png');
+}
+#facebook {
+	background-image: url('img/faceBlanco.png');
+}
+#github {
+	background-image: url('img/githubBlanco.png');
+}
+
+#instagram:hover, #facebook:hover, #github:hover{
+	background-size: 50px 50px;
+	transition: all 500ms;
+
+}
+#instagram:hover {
+	background-image: url(img/instaColor.png);
+}
+#facebook:hover{
+	background-image: url(img/faceColor.png);
+}
+#github:hover{
+	background-image: url(img/github.png);
 }
