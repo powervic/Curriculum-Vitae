@@ -10,7 +10,8 @@ background-size: contain;
 #principal{
 	background-color: ;
     background-position: top;
-    background-image:url(mix.jpg);
+    background-image: url('img/mix.jpg');
+    border-radius: 0px 0px 10px 10px;
     background-repeat: no-repeat;
     padding-top:20px;
 	text-align: center;
